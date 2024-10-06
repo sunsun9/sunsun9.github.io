@@ -26,7 +26,8 @@ footer:
 # Author 配置博主信息
 author: 'Sun'
 nickname: '快乐小狗'
-bio: 'ccnu cv在读 热爱技术&摄影'
+bio: 'ccnu cv在读 热爱技术&摄影
+      月更选手'
 avatar: '/assets/img/head_pic.jpg'
 
 # Search
@@ -40,14 +41,6 @@ comments:
   disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
-  gitalk: true
-  gitalk_clientID: 'Ov23liLG8ofbDvpNwIwH'
-  gitalk_Secret: '028b3efcbf90d93af7ed1aa2886801f077edf99a'
-  gitalk_repo: 'sunsun9.github.io'
-  gitalk_owner: 'sunsun9'
-  gitalk_admin: 'sunsun9'
-  distractionFreeMode: true
-
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
 
@@ -56,7 +49,7 @@ social-share: true
 social-share-items: ['wechat', 'weibo']
 
 # theme color 主题皮肤
-theme-color: 'default'  # pink or default
+theme-color: 'pink'  # pink or default
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'circuitBoard'
