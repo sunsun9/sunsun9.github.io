@@ -1,10 +1,10 @@
-```
+---
 layout: post
 title: '个人网站搭建有感'
 date: 2024-10-06
 author: Sun
 tags: 个人杂记
-```
+---
 
 # 原因
 
