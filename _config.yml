@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'Boyu Sun'
 description: 'cv在读。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '孙博宇, Boyu Sun'
+keyword: 'Boyu Sun'
 url: '' # your host
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
@@ -26,8 +26,7 @@ footer:
 # Author 配置博主信息
 author: 'Sun'
 nickname: '快乐小狗'
-bio: 'ccnu cv在读 热爱技术&摄影
-      月更选手'
+bio: 'ccnu cv在读 <br> 热爱代码&生活 <br> 月更选手'
 avatar: '/assets/img/head_pic.jpg'
 
 # Search
