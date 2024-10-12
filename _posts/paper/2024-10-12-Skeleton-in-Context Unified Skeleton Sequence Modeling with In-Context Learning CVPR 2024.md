@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Skeleton-in-Context Unified Skeleton Sequence Modeling with In-Context Learning CVPR 2024'
-date: 2024-10-06
+date: 2024-10-12
 author: Sun
 cover: 'https://pic.imgdb.cn/item/670a36bdd29ded1a8ca5d894.png'
 tags: 论文阅读
