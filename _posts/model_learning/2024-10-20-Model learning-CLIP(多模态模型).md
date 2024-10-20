@@ -7,6 +7,8 @@ tags: 模型算法学习
 ---
 
 > 最近组会听了一些多模态学习分享，记录多模态模型CLIP学习。
+> 
+> 可学习博客[Multimodality and Large Multimodal Models (LMMs)（原版）](https://huyenchip.com/2023/10/10/multimodal.html)、[译版](https://baoyu.io/translations/lmm/multimodality-and-large-multimodal-models)。原博主的博客都挺值得看的。
 
 多模态学习是在一个任务上利用多种不同形式的信息，例如结合视觉图像信息和文本模态的信息。CLIP是OpenAI提出的一种基于对比文本-图像对的预训练模型，就是结合了图像信息和文本信息，CLIP想解决的问题是考虑大量数据的监督的学习在现实应用中，有一定的缺陷性；因此，提出利用文本信息，可以实现对未在训练集出现过类别的样本的分类。因为监督学习都是基于大量的标记样本，但是大量的标记样本是一个很费力的工作；并且在实际应用中，不可能所有的输入都会是在训练数据集出现过的样本。
 
