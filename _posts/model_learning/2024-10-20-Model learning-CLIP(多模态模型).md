@@ -3,7 +3,7 @@ layout: post
 title: '多模态模型学习—CLIP'
 date: 2024-10-20 
 author: Sun
-tags: 论文阅读
+tags: 模型算法学习
 ---
 
 > 最近组会听了一些多模态学习分享，记录多模态模型CLIP学习。
