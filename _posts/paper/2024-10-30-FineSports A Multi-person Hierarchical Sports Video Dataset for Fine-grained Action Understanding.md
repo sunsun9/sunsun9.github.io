@@ -8,7 +8,7 @@ cover: 'https://pic.imgdb.cn/item/67219a81d29ded1a8cd68249.png'
 tags: 论文阅读
 ---
 
-> [FineSports：用于细粒度动作理解的多人分层运动视频数据集](https://openaccess.thecvf.com/CVPR2024)
+> [FineSports：用于细粒度动作理解的多人分层运动视频数据集](https://openaccess.thecvf.com/CVPR2024)（说明：虽然这篇文章在原文中放了数据集github仓库地址，但是目前仓库是空的）
 
 > 这篇文章的主要工作是**（1）**构建了一个具有细粒度动作注释的体育多人运动视频数据集，**（2）**提出了一种提示驱动的时空动作定位方法*PoSTAL*，包含两部分（详见下文），**（3）**大量实验证明了数据集的可行性，以及（2）中提出方法在*STAL*（时空动作定位）任务上的有效性。
 > 
