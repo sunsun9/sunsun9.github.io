@@ -22,7 +22,7 @@ tags: 论文阅读
 
 视觉-语言基础模型近期的发展已经揭示了跨模态学习的巨大优势。但是由于在视觉和文本之间存在巨大的鸿沟，因此这些模型可能并没有充分利用跨模态信息的优点。而姿态模态可以在着两者之间建立一个桥梁，从而提高跨模态学习的有效性。
 
-本文提出了一种新的架构*PeVL, Pose-enhanced Vision-language model*，来自适应具有姿态模态的*VL*模型，来学习细粒度人体行为的有效知识。*PeVL*包含两个组件：**非对称跨模态细化模块***(UCMR, Unsymmetrical Cross-Modality Refinement)*和**语义引导的多级对比模块***(SGMC, Semantic-Guided Multi-level Contrastive)***。
+本文提出了一种新的架构*PeVL, Pose-enhanced Vision-language model*，来自适应具有姿态模态的*VL*模型，来学习细粒度人体行为的有效知识。*PeVL*包含两个组件：**非对称跨模态细化模块***(UCMR, Unsymmetrical Cross-Modality Refinement)*和**语义引导的多级对比模块***(SGMC, Semantic-Guided Multi-level Contrastive)*。
 
 * ***UCMR*模块**：包含*Pose-guided Visual Refinement(P2V-R)*和*Visual-enriched Pose Refinement(V2P-R)*。从名字上来看，这个模块是一个视觉和姿态模态二者之间双向的一种互优化。
 * ***SGMC*模块**：包含*Multi-level Contrastive Associations of vision-text and pose-text at both action and sub-action levels*（动作级和子动作级的视觉-文本和姿态-文本的多级对比关联）和一个*Semantic-Guided Loss*。可以有效实现文本的对比学习。
