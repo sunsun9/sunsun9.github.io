@@ -4,7 +4,7 @@ title: 'PeVL: Pose-Enhanced Vision-Language Model for Fine-Grained Human Action 
 subtitle: 'PeVL：用于细粒度人体行为识别的姿态增强的视觉-语言模型'
 date: 2024-11-05
 author: Sun
-cover: ''https://pic.imgdb.cn/item/672a07e5d29ded1a8cc7b5d7.png"
+cover: 'https://pic.imgdb.cn/item/672a07e5d29ded1a8cc7b5d7.png'
 tags: 论文阅读
 ---
 
