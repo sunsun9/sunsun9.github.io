@@ -8,7 +8,7 @@ cover: 'https://pic.imgdb.cn/item/67307caad29ded1a8c5fbe66.png'
 tags: 论文学习
 ---
 
-> [CLIP-Adapter: Better Vision-Language Models with Feature Adapters | International Journal of Computer Vision](https://link.springer.com/article/10.1007/s11263-023-01891-x)
+> [CLIP-Adapter: Better Vision-Language Models with Feature Adapters International Journal of Computer Vision](https://link.springer.com/article/10.1007/s11263-023-01891-x)
 > 
 > 整体来看,文章思路还是比较简单的,这个文章原文用了大量篇幅验证模型效果以及消融实验效果.这个想法其实比较简单,原文说明实验全部都是在单卡A100跑完的.所以说明计算量确实不是很大.目前很多论文都是基于大模型微调,所以就看怎么微调实现的效果比较好.(这篇文章的思路也是来源于其他文章的,有一篇文章是将适配器使用到了模型的每一层)
 
