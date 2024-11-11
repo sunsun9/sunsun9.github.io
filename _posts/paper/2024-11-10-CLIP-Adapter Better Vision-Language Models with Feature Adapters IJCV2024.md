@@ -5,7 +5,7 @@ subtitle: 'CLIP-Adapter：具有特征适配器的更好的视觉语言模型'
 date: 2024-11-10
 author: Sun
 cover: 'https://pic.imgdb.cn/item/67307caad29ded1a8c5fbe66.png'
-tags: 论文学习
+tags: 论文阅读
 ---
 
 > [CLIP-Adapter: Better Vision-Language Models with Feature Adapters International Journal of Computer Vision](https://link.springer.com/article/10.1007/s11263-023-01891-x)
