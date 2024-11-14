@@ -57,7 +57,6 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/sunsun9'
-  csdn: '//blog.csdn.net/qq_57503027'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
