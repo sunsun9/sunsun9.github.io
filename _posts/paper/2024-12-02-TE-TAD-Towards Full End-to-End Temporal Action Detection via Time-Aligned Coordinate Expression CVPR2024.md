@@ -49,9 +49,7 @@ tags: 论文阅读
 
 * **多尺度特征**：在这一步首先将backbone得到的视频特征，输入到一个单层的卷积神经网络中，从而实现将特征对齐到transformer架构的维度，即将特征嵌入到一个新的维度空间中。之后，使用一个步长为2的卷积神经网络，生成每个尺度的特征。公式表达如下：
   
-  $$
-  Z_l=\operatorname{LayerNorm}_l\left(\operatorname{Conv}_l\left(Z_{l-1}\right)\right), l \in\{2, \ldots, L\}
-  $$
+  $$ Z_l=\operatorname{LayerNorm}_l\left(\operatorname{Conv}_l\left(Z_{l-1}\right)\right), l \in\{2, \ldots, L\} $$
 
    其中，需要注意的是$T_l$是$T_{l-1}$的一半。
 
