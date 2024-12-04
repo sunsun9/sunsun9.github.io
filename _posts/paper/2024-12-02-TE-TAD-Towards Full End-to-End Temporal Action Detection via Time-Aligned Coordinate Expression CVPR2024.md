@@ -51,7 +51,7 @@ tags: 论文阅读
 
   $$ Z_l=\operatorname{LayerNorm}_l\left(\operatorname{Conv}_l\left(Z_{l-1}\right)\right), l \in\{2, \ldots, L\} $$
 
-   其中，$Z_l \in \mathbb{R}^{C \times T_l}$，需要注意的是$T_l$是$T_{l-1}$的一半。
+   其中，$$Z_l \in \mathbb{R}^{C \times T_l}$$，需要注意的是$$T_l$$是$$T_{l-1}$$的一半。
 
 
 
@@ -61,14 +61,14 @@ tags: 论文阅读
   c^{\mathrm{ref}}=\left\{t \times \frac{f}{w \times 2^{l-1}}+\frac{w \times 2^{l-1}}{2}\right\}_{t=1}^{T_l}, l \in\{1,2, \ldots, L\}
   $$
   
-  宽度参考$d^{\mathrm{ref}}=\alpha \cdot f \times 2^{l-1}, l \in\{1,2, \ldots, L\}$。根据中心和宽度划分了查询，结合架构图可以看出。（使用它的公式，是可以刚好和之前的多尺度对上的）
-* **自适应查询选择**：之前的方法都是固定选择前K个提案，原文认为这种方法存在局限，不能很好的适应视频内容特征。因此，原文提出将视频分成固定长度的$T_{sector}$，并在每个*sector* 中选择前*K* 个。原文认为这种方法可以避免仅仅只选择部分数据。这个过程用公式表示如下:
+  宽度参考$$d^{\mathrm{ref}}=\alpha \cdot f \times 2^{l-1}, l \in\{1,2, \ldots, L\}$$。根据中心和宽度划分了查询，结合架构图可以看出。（使用它的公式，是可以刚好和之前的多尺度对上的）
+* **自适应查询选择**：之前的方法都是固定选择前K个提案，原文认为这种方法存在局限，不能很好的适应视频内容特征。因此，原文提出将视频分成固定长度的$$T_{sector}$$，并在每个*sector* 中选择前*K* 个。原文认为这种方法可以避免仅仅只选择部分数据。这个过程用公式表示如下:
 
 $$
 \mathcal{Q}=\bigcup_{s=1}^S\left\{\left(\hat{c}_{t, l}^{(0)}, \hat{d}_{t, l}^{(0)}\right) \mid(t, l) \in \text { indices of top- } K \text { in } P_s\right\}
 $$
 
-其中$P_S$就是前面提到的每个*sector*。最后得到的$\mathcal{Q}$就是模型选择的查询集合。
+其中$$P_S$$就是前面提到的每个*sector*。最后得到的$$\mathcal{Q}$$就是模型选择的查询集合。
 
 * **时间对齐片段细化**：本文没有参考先前的方法使用归一化函数来细化坐标表达，而是使用下面公式实现细化。
 
@@ -86,7 +86,7 @@ $$
   \mathcal{L}_{\text {total }}(\mathcal{A}, \hat{\mathcal{A}})=\sum_{i=1}^{N_q} \mathcal{L}_{\text {match }}\left(\mathcal{A}_i, \hat{\mathcal{A}}_{\pi(i)}\right)，
   $$
   
-  其中，$\mathcal{L}_{\text {match}}$是分类损失和回归损失的结合，对于分类损失，本文使用的是焦点损失（*focal loss*）；对于回归损失，本文使用的是*DIoU* 和宽度的对数比距离。此外，还在每个解码器层使用了辅助解码损失。
+  其中，$$\mathcal{L}_{\text {match}}$$是分类损失和回归损失的结合，对于分类损失，本文使用的是焦点损失（*focal loss*）；对于回归损失，本文使用的是*DIoU* 和宽度的对数比距离。此外，还在每个解码器层使用了辅助解码损失。
 
 
 
