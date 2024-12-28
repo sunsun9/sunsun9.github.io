@@ -83,7 +83,7 @@ $$
 $$
 \begin{pmatrix}
 \theta_{\mathcal{P}_V}^*,\theta_{\mathcal{P}_L}^*,\tau^*
-\end{pmatrix}=\underset{\theta_{\mathcal{P}},\tau}{\operatorname*{\operatorname*{argmin}}}\mathcal{L}		\hspace{2em}(3)
+\end{pmatrix}=\underset{\theta_{\mathcal{P}},\tau}{\operatorname*{\operatorname*{argmin}}}\mathcal{L}   \hspace{2em}(3)
 $$
 
 $$
