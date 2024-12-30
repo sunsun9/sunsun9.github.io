@@ -4,7 +4,7 @@ title: 'What, when, and where? Self-Supervised Spatio-Temporal Grounding in Untr
 subtitle: 'What, when, and where? 根据解释说明在未剪裁的多动作视频中进行自监督时空定位训练'
 date: 2024-12-28
 author: Sun
-cover: ''
+cover: 'https://pic1.imgdb.cn/item/677202e7d0e0a243d4ec5bac.png'
 tags: 论文阅读
 ---
 
