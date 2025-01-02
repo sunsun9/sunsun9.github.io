@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: 'Boyu Sun'
+title: 'Sun'
 description: 'cv在读。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: 'Boyu Sun'
+keyword: 'Sun'
 url: '' # your host
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
