@@ -8,7 +8,8 @@ cover: 'https://pic1.imgdb.cn/item/67ac50add0e0a243d4fe9138.png'
 tags: 论文阅读
 ---
 
-> [DiffTAD: 具有提案去噪扩散的时序动作检测](https://openaccess.thecvf.com/ICCV2023)
+> [DiffTAD: 具有提案去噪扩散的时序动作检测](https://openaccess.thecvf.com/ICCV2023)（注：这个代码并没有公布，github上是空的）
+> 
 > 1 英国萨里大学 CVSSP 2 英国科大讯飞-萨里人工智能联合研究中心 3 英国萨里以人为本人工智能研究所 4 英国伦敦帝国理工学院
 
 # 1.文章针对痛点
