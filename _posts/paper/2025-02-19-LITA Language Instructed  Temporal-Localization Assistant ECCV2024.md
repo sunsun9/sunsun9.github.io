@@ -8,12 +8,9 @@ cover: 'https://pic1.imgdb.cn/item/67b41fc3d0e0a243d4006c00.png'
 tags: 论文阅读
 ---
 
-> [DDG-Net: Discriminability-Driven Graph Network for Weakly-supervised Temporal Action Localization](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08090.pdf)
+> [LITA: Language Instructed  Temporal-Localization Assistant](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08090.pdf)
 > 
-> 1北京邮政与电信大学，中国；
-> 2自动化研究所，中国科学院，中国；
-> 3人工智能与机器人技术中心，HKISI_CAS，香港，中国；
-> 4号中国科学院，UCAS，中国
+> NVIDIA
 
 # 1.文章针对痛点
 
