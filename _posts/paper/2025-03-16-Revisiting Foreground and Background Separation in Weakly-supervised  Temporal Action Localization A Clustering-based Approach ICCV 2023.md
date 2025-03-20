@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Revisiting Foreground and Background Separation in Weakly-supervised  Temporal Action Localization: A Clustering-based Approach ICCV 2023'
+title: 'Revisiting Foreground and Background Separation in Weakly-supervised  Temporal Action Localization: A Clustering-based Approach ICCV 2023😊'
 subtitle: '重新审视弱监督时间动作定位中前景和背景分离：一种基于聚类的方法'
 date: 2025-03-16
 author: Sun

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Temporal Sentence Grounding with Relevance  Feedback in Videos NeurIPS 2024'
+title: 'Temporal Sentence Grounding with Relevance  Feedback in Videos NeurIPS 2024😊'
 subtitle: '具有视频相关性反馈的时间句子定位'
 date: 2025-03-14
 author: Sun
@@ -9,6 +9,7 @@ tags: 论文阅读
 ---
 
 > [Temporal Sentence Grounding with Relevance  Feedback in Videos](https://proceedings.neurips.cc/paper_files/paper/2024/hash/4b96695d9885f038110b8b16ef50e882-Abstract-Conference.html)
+> > 💐💐提供代码
 > 
 > 1. ​浙江工商大学
 > 2. 浙江省大数据与未来电子商务技术重点实验室

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'BAM-DETR: Boundary-Aligned Moment  Detection Transformer for Temporal Sentence  Grounding in Videos ECCV 2024'
+title: 'BAM-DETR: Boundary-Aligned Moment  Detection Transformer for Temporal Sentence  Grounding in Videos ECCV 2024😊'
 subtitle: 'BAM-DETR：用于视频时间句子定位的边界对齐时刻定位Transformer'
 date: 2025-03-18
 author: Sun
@@ -25,7 +25,7 @@ tags: 论文阅读
 
 # 2.主要贡献
 
-因此，为了解决上面的问题，文章首先为时刻提出了一种新的面向边界的公式，也就是每个时刻表示为一个三元组，包含锚点和锚点与边界的距离，即（$p$, $d_s$, $d_e$），这种不对称性可以有效解决上述的预测中心不是*ground-truth* 片段中心的问题。
+因此，为了解决上面的问题，文章首先为时刻提出了一种新的面向边界的公式，也就是每个时刻表示为一个三元组，包含锚点和锚点与边界的距离，即（$$p$$, $$d_s$$, $$d_e$$），这种不对称性可以有效解决上述的预测中心不是*ground-truth* 片段中心的问题。
 
 基于这种时刻建模，文章提出了一种新的架构，具有专用的解码器设计，称为*Boundary-Aligned Mo ment Detection Transformer (BAM-DETR)*。模型采用**双路径解码管道来预测锚点和边界**，也就是利用两种不同类型的查询分别实现锚点和边界细化，前者聚合全局信息，后者使用提出的边界焦点注意集中边界的稀疏局部邻域。
 
