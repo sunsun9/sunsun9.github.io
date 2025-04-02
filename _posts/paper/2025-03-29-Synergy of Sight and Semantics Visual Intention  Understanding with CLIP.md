@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Synergy of Sight and Semantics: Visual Intention  Understanding with CLIP ECCV 2024'
+title: 'Synergy of Sight and Semantics: Visual Intention  Understanding with CLIP ECCV 2024😊'
 subtitle: '视觉和语义的协同：利用CLIP实现视觉意图理解'
 date: 2025-03-29
 author: Sun
