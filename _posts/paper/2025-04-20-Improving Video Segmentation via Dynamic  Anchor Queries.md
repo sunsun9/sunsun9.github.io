@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Improving Video Segmentation via Dynamic  Anchor Queries ECCV 2024😊'
-subtitle: '通过动态锚框查询提神视频分割'
+subtitle: '通过动态锚框查询提升视频分割'
 date: 2025-04-20
 author: Sun
 cover: 'https://pic1.imgdb.cn/item/6803371758cb8da5c8b4a661.png'
