@@ -45,12 +45,12 @@ tags: 论文阅读
 
 # 4.实现细节
 
-* ***Informative token selection***：这个模块就是前面提到的三个步骤的第一步，用于选择包含有效信息的*token*。由于视频中存在许多冗余*token*，因此要提取所需的时序信息，使用所有*token* 可能不是最佳选择。因此利用自注意力操作获得的每帧注意力分数来选择信息量大的种子标记。具体来说，利用公式1来计算注意力分数，其中$\mathbf{q}_{\mathrm{cls}}=\mathbf{z}_{\mathrm{t},0}\mathbf{W}_q$，$\mathbf{K}_{\mathbf{z}_t}=\mathbf{z}_t\mathbf{W}_k$。
+* ***Informative token selection***：这个模块就是前面提到的三个步骤的第一步，用于选择包含有效信息的*token*。由于视频中存在许多冗余*token*，因此要提取所需的时序信息，使用所有*token* 可能不是最佳选择。因此利用自注意力操作获得的每帧注意力分数来选择信息量大的种子标记。具体来说，利用公式1来计算注意力分数，其中$$\mathbf{q}_{\mathrm{cls}}=\mathbf{z}_{\mathrm{t},0}\mathbf{W}_q$$，$$\mathbf{K}_{\mathbf{z}_t}=\mathbf{z}_t\mathbf{W}_k$$。
   
   $$
   \mathbf{a}(\mathbf{z}_t)=\mathrm{Softmax}\left(\frac{\mathbf{q}_\mathrm{cls}\mathbf{K}_{\mathbf{z}_t}^\mathsf{T}}{\sqrt d}\right),	\quad(1)
   $$
-* ***Temporal context summarization***：这个部分是根据各帧的相关性将种子标记连接起来，并识别出一系列上下文标记。具体来说，首先收集所有帧的种子标记$\left\{\hat{\mathbf{z}}_{t, i}\right\}_{(t, i) \in \mathcal{S}}$，其中，${\hat{\mathbf{z}}_{t, i}}$是${\mathbf{z}}_{t, i}$经过自注意力操作得到的。之后，按照下面公式1得到上下文*tokens*，这个操作就是聚类和合并操作。最后将得到的输出输入送入一个前馈神经网络层得到最后的时间上下文总结。
+* ***Temporal context summarization***：这个部分是根据各帧的相关性将种子标记连接起来，并识别出一系列上下文标记。具体来说，首先收集所有帧的种子标记$$\left\{\hat{\mathbf{z}}_{t, i}\right\}_{(t, i) \in \mathcal{S}}$$，其中，$${\hat{\mathbf{z}}_{t, i}}$$是$${\mathbf{z}}_{t, i}$$经过自注意力操作得到的。之后，按照下面公式1得到上下文*tokens*，这个操作就是聚类和合并操作。最后将得到的输出输入送入一个前馈神经网络层得到最后的时间上下文总结。
   
   $$
   \hat{\mathbf{s}}=\phi\left(\left\{\hat{\mathbf{z}}_{t, i}\right\}_{(t, i) \in \mathcal{S}}\right)	\quad(1)
