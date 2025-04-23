@@ -1,12 +1,20 @@
 ---
 layout: post
-title: 'End-to-End Temporal Action Detection with 1B Parameters Across 1000 Frames CVPR2024'
+title: 'End-to-End Temporal Action Detection with 1B Parameters Across 1000 Frames CVPR2024😊'
 subtitle: '跨1000帧、具有1B参数量的端到端时序动作检测'
 date: 2024-12-10
 author: Sun
 cover: 'https://pic.imgdb.cn/item/6757b1bdd0e0a243d4e0d7fa.png'
 tags: 论文阅读
 ---
+
+
+> 💐💐[提供代码](https://github.com/sming256/OpenTAD/tree/main/configs/adatad)
+>
+> 📌作者单位
+>
+> 1. King Abdullah University of Science and Technology (KAUST) 
+> 2. 4Paradigm Inc
 
 # 1.文章针对痛点
 
