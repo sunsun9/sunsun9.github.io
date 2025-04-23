@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 'TE-TAD: Towards Full End-to-End Temporal Action Detection via
-Time-Aligned Coordinate Expression CVPR2024'
+title: 'TE-TAD: Towards Full End-to-End Temporal Action Detection via Time-Aligned Coordinate Expression CVPR2024😊'
 subtitle: 'TE-TAD: 通过时间对齐坐标表达实现完全的端到端的时序动作检测'
 date: 2024-12-02
 author: Sun
@@ -10,6 +9,9 @@ tags: 论文阅读
 ---
 
 > [TE-TAD: Towards Full End-to-End Temporal Action Detection via Time-Aligned Coordinate Expression](https://openaccess.thecvf.com/CVPR2024)
+> 
+> 💐💐[提供代码](https://github.com/Dotori-HJ/TE-TAD)
+> 
 > 1韩国首尔高丽大学人工智能系 2韩国首尔高丽大学脑与认知工程系
 
 # 1.文章针对痛点
