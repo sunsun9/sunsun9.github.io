@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Text-Infused Attention and Foreground-Aware  Modeling for Zero-Shot Temporal Action Detection NeurIPS 2024'
+title: 'Text-Infused Attention and Foreground-Aware  Modeling for Zero-Shot Temporal Action Detection NeurIPS 2024😊'
 subtitle: '面向零样本时序动作检测的注入文本注意和前景感知建模'
 date: 2025-05-07
 author: Sun

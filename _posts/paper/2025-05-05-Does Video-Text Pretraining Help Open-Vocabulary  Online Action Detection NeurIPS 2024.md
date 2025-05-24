@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Does Video-Text Pretraining Help Open-Vocabulary  Online Action Detection? NeurIPS 2024'
+title: 'Does Video-Text Pretraining Help Open-Vocabulary  Online Action Detection? NeurIPS 2024😊'
 subtitle: '视频-文本预训练是否可以帮助开放词汇设置下的在线动作检测'
 date: 2025-05-05
 author: Sun

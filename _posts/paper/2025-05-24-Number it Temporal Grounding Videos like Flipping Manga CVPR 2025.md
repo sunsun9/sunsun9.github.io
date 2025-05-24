@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Number it: Temporal Grounding Videos like Flipping Manga CVPR 2025'
+title: 'Number it: Temporal Grounding Videos like Flipping Manga CVPR 2025😊'
 subtitle: '编号：像翻阅漫画那样的时间定位视频'
 date: 2025-05-24
 author: Sun
