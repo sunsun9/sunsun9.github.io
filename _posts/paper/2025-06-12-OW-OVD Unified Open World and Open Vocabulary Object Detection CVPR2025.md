@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'OW-OVD: Unified Open World and Open Vocabulary Object Detection CVPR2025'
+title: 'OW-OVD: Unified Open World and Open Vocabulary Object Detection CVPR2025😊'
 subtitle: 'OW-OVD: 统一开放世界和开放词汇物体检测'
 date: 2025-06-12
 author: Sun
