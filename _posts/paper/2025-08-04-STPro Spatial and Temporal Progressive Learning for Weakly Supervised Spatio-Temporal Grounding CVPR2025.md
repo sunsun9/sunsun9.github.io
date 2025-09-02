@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 'STPro: Spatial and Temporal Progressive Learning for Weakly Supervised
-Spatio-Temporal Grounding CVPR2025'
+title: 'STPro: Spatial and Temporal Progressive Learning for Weakly Supervised Spatio-Temporal Grounding CVPR2025😐'
 subtitle: 'STPro: 面向弱监督时空视频定位的时空渐进学习'
 date: 2025-08-04
 author: Sun
