@@ -2,7 +2,7 @@
 layout: post
 title: 'WHAT TO ALIGN IN MULTIMODAL CONTRASTIVE LEARNING? ICLR2025😊'
 subtitle: '在多模态对比学习中需要对齐什么'
-date: 2025-11-02
+date: 2025-11-01
 author: Sun
 cover: 'https://pic1.imgdb.cn/item/6905a2403203f7be00bec973.png'
 tags: 论文阅读
